@@ -1,0 +1,22 @@
+remote link : https://github.com/uzchang91/EST_Project.git
+
+ls *shows child directory
+
+cd/desktop/WEB/
+
+git init *initiate
+
+git config --global user.name uzchang91
+
+git config --global user.email uzchang91@gmail.com
+
+git remote add origin https://github.com/2025-EST-FE-9/TeamCrunky.git{link}
+
+git add . *adds all editted files*
+git add {file.html} *selective*
+
+git commit -m "{comment}"
+
+git push origin master *sends data to Git server*
+
+git pull origin master *retrieves data from Git server*
